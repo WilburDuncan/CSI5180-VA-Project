@@ -1,0 +1,28 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-ani_gerne",
+      "2": "I-ani_gerne",
+      "3": "L-ani_gerne",
+      "4": "U-ani_gerne",
+      "5": "B-ani_name",
+      "6": "I-ani_name",
+      "7": "L-ani_name",
+      "8": "U-ani_name",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-ani_gerne": 1,
+      "I-ani_gerne": 2,
+      "L-ani_gerne": 3,
+      "U-ani_gerne": 4,
+      "B-ani_name": 5,
+      "I-ani_name": 6,
+      "L-ani_name": 7,
+      "U-ani_name": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

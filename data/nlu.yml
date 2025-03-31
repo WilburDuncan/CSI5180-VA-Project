@@ -1,0 +1,133 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: ask_rcmd_ani
+  examples: |
+    - can you recommand some anime to me?
+    - can you tell me about some anime?
+    - can you recommand some anime series to me?
+    - can you tell me about some anime series?
+
+- intent: fancy_genre
+  examples: |
+    - I like [action](ani_genre) anime.
+    - I like [comedy](ani_genre) anime series.
+    - I like [music](ani_genre) anime.
+    - I like [sci-fi](ani_genre) anime series.
+
+- intent: get_description 
+  examples: |
+    - What is [Gintama Season 4](ani_title) about?
+    - What is [Your Lie in April](ani_title) about?
+    - What is [Ghost in the Shell](ani_title) about?
+    - What is [Cowboy Bebop](ani_title) about?
+
+- intent: ask_main
+  examples: |
+    - Who are the main characters of the anime [Attack on Titan Season 3 Part 2](ani_name)? 
+    - Who are the main characters of [ONE PIECE FAN LETTER](ani_name)?
+    - Who are the main characters of the anime [Demon Slayer](ani_name)? 
+    - Who are the main characters of [Spy Family](ani_name)?
+
+- intent: intro_main
+  examples: |
+    - Can you introduce the character [Gintoki Sakata](ch_name) to me?
+    - Can you introduce [Loid Forger](ch_name) to me?
+    - Can you tell me more about [Kagura](ch_name)?
+    - Can you give me more details about [Shinpachi Shimura](ch_name)?
+  
+- intent: bye_ani
+  examples: |
+    - Thank you for recommandation.
+    - Thank you for your recommandation.
+    - Thank you, goodbye.
+

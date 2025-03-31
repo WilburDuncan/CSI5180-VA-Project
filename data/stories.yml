@@ -1,0 +1,56 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: Recommand Anime Path
+  steps:
+  - intent: ask_rcmd_ani
+  - action: utter_ask_genre
+
+- story: Recommand Anime Path2
+  steps:
+  - intent: fancy_genre
+  - action: action_rcmd_ani
+
+- story: Recommand Anime Path3
+  steps:
+  - intent: get_description
+  - action: action_get_description
+
+- story: Recommand Anime Path4
+  steps:
+  - intent: ask_main
+  - action: action_intro_main
+
+- story: Recommand Anime Path5
+  steps:
+  - intent: intro_main
+  - action: action_intro_ch
+

@@ -1,0 +1,15 @@
+{
+  "0": "affirm",
+  "1": "ask_main",
+  "2": "ask_rcmd_ani",
+  "3": "bot_challenge",
+  "4": "bye_ani",
+  "5": "deny",
+  "6": "fancy_genre",
+  "7": "get_description",
+  "8": "goodbye",
+  "9": "greet",
+  "10": "intro_main",
+  "11": "mood_great",
+  "12": "mood_unhappy"
+}
